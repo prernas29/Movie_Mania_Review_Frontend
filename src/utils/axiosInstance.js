@@ -4,7 +4,7 @@ import axios from 'axios';
 import Cookies from 'js-cookie';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:4000',
+  baseURL: 'https://movie-mania-review-backend.onrender.com',
 });
 
 axiosInstance.interceptors.request.use(
